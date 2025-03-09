@@ -34,6 +34,10 @@
 
   --shadow-dark-100: 0px 2px 10px 0px rgba(46, 52, 56, 0.1);
   --shadow-dark-200: 2px 0px 20px 0px rgba(39, 36, 36, 0.04);
+
+  /* FONT FAMILY */
+  --font-inter: (var(--font-inter));
+  --font-space-grotesk: (var(--font-space-grotesk));
 }
 
 @layer utilities {
@@ -224,5 +228,5 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Inter", sans-serif;
 }
