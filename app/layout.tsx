@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Inter, Space_Grotesk } from "next/font/google";
 import "./globals.css";
-import ThemeProvider from "@/context/Theme";
-import Navbar from "@/components/navigation/navbar";
+import ThemeProvider from "@/context/ThemeProvider";
+import Navbar from "@/components/navigation/navbar/Navbar";
 
 const inter = Inter({
   variable: "--font-inter",
