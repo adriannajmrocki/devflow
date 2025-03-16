@@ -45,10 +45,12 @@
 }
 
 @layer utilities {
+  /* DISPLAY */
   .flex-between {
     @apply flex justify-between items-center;
   }
 
+  /* TEXT */
   .h1-bold {
     @apply text-[30px] font-bold leading-[42px] tracking-tighter;
   }
@@ -57,12 +59,64 @@
     @apply text-[24px] font-bold leading-[31.2px];
   }
 
+  .paragraph-regular {
+    @apply text-[16px] font-normal leading-[22.4px];
+  }
+
+  .body-medium {
+    @apply text-[14px] font-medium leading-[18.2px];
+  }
+
+  .text-dark100_light900 {
+    @apply text-dark-100 dark:text-light-900;
+  }
+
+  .text-dark200_light800 {
+    @apply text-dark-200 dark:text-light-800;
+  }
+
+  .text-dark500_light400 {
+    @apply text-dark-500 dark:text-light-400;
+  }
+
+  /* BACKGROUND */
+  .background-light800_dark200 {
+    @apply bg-light-800 dark:bg-dark-200;
+  }
+
   .background-light850_dark100 {
     @apply bg-light-850 dark:bg-dark-100;
   }
 
   .background-light900_dark200 {
     @apply bg-light-900 dark:bg-dark-200;
+  }
+
+  .background-dark400_light900 {
+    @apply dark:bg-dark-400 bg-light-900;
+  }
+
+  .background-auth-light {
+    background-image: url("/images/auth-light.png");
+  }
+
+  .dark .dark\:background-auth-dark {
+    background-image: url("/images/auth-dark.png");
+  }
+
+  /* BORDER */
+  .light-border {
+    @apply border-light-800 dark:border-dark-300;
+  }
+
+  /* SHADOW */
+  .shadow-light100_dark100 {
+    @apply shadow-light-100 dark:shadow-dark-100;
+  }
+
+  /* OTHER */
+  .invert-colors {
+    @apply invert dark:invert-0;
   }
 
   /* 
@@ -84,14 +138,6 @@
     ) !important;
   }
 
-  .background-dark400_light900 {
-    @apply dark:bg-dark-400 bg-light-900;
-  }
-
-  .text-dark100_light900 {
-    @apply text-dark-100 dark:text-light-900;
-  }
-
   .text-dark200_light800 {
     @apply text-dark-200 dark:text-light-800;
   }
@@ -108,10 +154,6 @@
     @apply text-light-400 dark:text-light-500;
   }
 
-  .light-border {
-    @apply border-light-800 dark:border-dark-300;
-  }
-
   .light-border-2 {
     @apply border-light-700 dark:border-dark-400;
   }
@@ -126,10 +168,6 @@
 
   .placeholder {
     @apply placeholder:text-light-400 dark:placeholder:text-light-500;
-  }
-
-  .invert-colors {
-    @apply invert dark:invert-0;
   }
 
   .primary-gradient {
