@@ -50,7 +50,7 @@ const RightSidebar = () => {
           {popularTags.map(({ id, name, questions }) => (
             <TagCard
               key={id}
-              id={id}
+              _id={id}
               name={name}
               questions={questions}
               showCount

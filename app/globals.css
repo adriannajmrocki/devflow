@@ -67,6 +67,10 @@
     @apply text-[20px] font-bold leading-[26px];
   }
 
+  .h3-semibold {
+    @apply text-[20px] font-semibold leading-[24.8px];
+  }
+
   .paragraph-regular {
     @apply text-[16px] font-normal leading-[22.4px];
   }
@@ -91,8 +95,16 @@
     @apply text-[18px] font-bold leading-[140%];
   }
 
+  .base-semibold {
+    @apply text-[18px] font-semibold leading-[25.2px];
+  }
+
   .base-medium {
     @apply text-[18px] font-medium leading-[25.2px];
+  }
+
+  .subtle-regular {
+    @apply text-[10px] font-normal leading-[13px];
   }
 
   .subtle-medium {
@@ -190,6 +202,11 @@
 
   .btn-tertiary {
     @apply bg-light-700 dark:bg-dark-300;
+  }
+
+  /* CARD */
+  .card-wrapper {
+    @apply bg-light-900 dark:bg-dark-300 shadow-light-100 dark:shadow-dark-100;
   }
 
   /* BORDER */
