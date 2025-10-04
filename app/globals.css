@@ -139,6 +139,10 @@
     @apply text-dark-400 dark:text-light-700;
   }
 
+  .text-dark400_light800 {
+    @apply text-dark-400 dark:text-light-800;
+  }
+
   .text-dark400_light900 {
     @apply text-dark-400 dark:text-light-900;
   }
@@ -159,6 +163,10 @@
   }
 
   /* BACKGROUND */
+  .background-light700_dark300 {
+    @apply bg-light-700 dark:bg-dark-300;
+  }
+
   .background-light800_dark200 {
     @apply bg-light-800 dark:bg-dark-200;
   }
