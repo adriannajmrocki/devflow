@@ -55,6 +55,10 @@
     @apply flex justify-between items-center;
   }
 
+  .flex-start {
+    @apply flex justify-start items-center;
+  }
+
   /* TEXT */
   .h1-bold {
     @apply text-[30px] font-bold leading-[42px] tracking-tighter;
